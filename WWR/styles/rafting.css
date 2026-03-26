@@ -114,3 +114,20 @@ header {
     color: tomato;
     text-decoration: underline;
 }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+figcaption {
+    background-color: #055a05;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-wrap: ;
+}
