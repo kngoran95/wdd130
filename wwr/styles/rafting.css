@@ -44,7 +44,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -58,6 +58,23 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero article {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    right: 20px;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: 2px;
+}
+
+nav {
+    background-color: var(--secondary-color);
+}
+
+section {
+    background-color: var(--accent2-color);
 }
 
 :root {
