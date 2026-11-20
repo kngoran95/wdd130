@@ -171,7 +171,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #0b4f6c;
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
