@@ -92,7 +92,6 @@ nav {
 nav a:hover {
     background-color: #145374;
     color: #ffffff;
-    border-radius: 1px;
 }
 
 .nav {
@@ -189,6 +188,12 @@ footer p {
 .socialmedia img {
     width: 40px;
     height: auto;
+}
+
+section,
+nav,
+footer {
+    color: #264653;
 }
 
 :root {
