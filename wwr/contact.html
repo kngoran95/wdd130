@@ -37,14 +37,14 @@
         <!-- CONTACT SECTION -->
         <section contact-container>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4725.105221581218!2d-3.7353243866180748!3d5.2116765458699925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sci!4v1795816167636!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4725.105221581218!2d-3.7353243866180748!3d5.2116765458699925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sci!4v1795816167636!5m2!1sfr!2sci" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
             <div class="contact-form">
-                <form>
+                <form action="#" method="post">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="name">
+                        <input type="text" id="name" name="name" placeholder="name">
                     </div>
 
                     <div class="form-group">
@@ -54,18 +54,18 @@
 
                     <div class="purpose">
                         <p>Message Purpose</p>
-                        <label>
-                            <input type="radio" id="purpose" name="purpose">
+                        <label for="general">
+                            <input type="radio" id="general" name="purpose" value="general">
                             General Inquiry
                         </label>
 
-                        <label>
-                            <input type="radio" id="purpose" name="purpose">
+                        <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
                             Reservation Question
                         </label>
 
-                        <label>
-                            <input type="radio" id="purpose" name="purpose">
+                        <label for="suggestion">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
                             Website Suggestion
                         </label>
                     </div>
@@ -76,7 +76,7 @@
                     </div>
 
                     <label class="newsletter">
-                        <input type="checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter">
                         please subscribe me to the monthly newsletter.
                     </label>
 
@@ -91,17 +91,17 @@
 
             <div class="employee">
                 <div class="card">
-                    <img src="images/employee01.jpg" alt="Employee01">
+                    <img src="images/employee01.jpg" alt="Rafting guide standing beside a raft">
                     <p>Employee Profile</p>
                 </div>
 
                 <div class="card">
-                    <img src="images/employee02.jpg" alt="Employee02">
+                    <img src="images/employee02.jpg" alt="Rafting instructor preparing safety equipment">
                     <p>Employee Profile</p>
                 </div>
 
                 <div class="card">
-                    <img src="images/employee03.jpg" alt="Employee02">
+                    <img src="images/employee03.jpg" alt="White water rafting trip leader">
                     <p>Employee Profile</p>
                 </div>
             </div>
