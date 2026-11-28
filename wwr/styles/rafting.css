@@ -222,7 +222,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items: start;
-    margin: 40px, 0;
+    margin: 40px 0;
 }
 
 .map iframe {
